@@ -145,7 +145,7 @@ export default function  ForgetPasswordComponent() {
           <LockOutlinedIcon />
         </Avatar>
         <Typography component="h1" variant="h5">
-          Forgot Password Here
+          Forgot Password 
         </Typography>
         <form className={classes.form} noValidate onSubmit={(e)=>{e.preventDefault();sendemail(e)}}>
           <TextField
